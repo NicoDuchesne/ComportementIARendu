@@ -181,8 +181,8 @@ public class FlipperAgent : Agent {
         sensor.AddObservation(vectorFlipperBall);
         sensor.AddObservation(ballVelocity);
         sensor.AddObservation(flipperAngle);
-        sensor.AddObservation(sideValue);
         sensor.AddObservation(BallInContact);
+        sensor.AddObservation(sideValue);
     }
 
     public override void OnActionReceived(ActionBuffers actions) {
